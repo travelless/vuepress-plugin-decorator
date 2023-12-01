@@ -9,5 +9,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/travelless/vuepress-plugin-filterfunc"
-  }
+  },
+  "keywords": [
+    "vuepress-plugin"
+  ]
 }
