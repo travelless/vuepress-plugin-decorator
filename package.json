@@ -1,5 +1,5 @@
 {
-  "name": "vuepress-plugin-filterFunc",
+  "name": "vuepress-plugin-filterfunc",
   "version": "1.0.0",
   "description": "为vuepress的frontmatter提供一个类似eleventy中filter的过滤器服务。",
   "main": "index.js",
@@ -8,6 +8,6 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/travelless/vuepress-plugin-filterFunc"
+    "url": "https://github.com/travelless/vuepress-plugin-filterfunc"
   }
 }

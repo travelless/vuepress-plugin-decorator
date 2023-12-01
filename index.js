@@ -2,7 +2,7 @@ export function filterFuncConfig(config) {
   const { workDir, filterFuncs } = config
   return function filterFunc(app) {
     return {
-      name: 'filterFunc',
+      name: 'filterfunc',
       extendsPage: (page) => {
         if (isWorkDir(page, workDir, app)) {
           dealWithFrontmatter(page.frontmatter, filterFuncs)
