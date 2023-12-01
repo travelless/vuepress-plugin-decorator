@@ -2,7 +2,7 @@
 
 这是一个 vuepress 的插件，为 vuepress 用户提供了一个类似 eleventy 中 filter 函数的过滤器功能。
 
-使用方法：
+# 使用方法：
 
 ```js
 // 在你的config.ts文件中
@@ -31,3 +31,10 @@ url | img-url: /img/1.png
 
 这个文件的 frontmatter 最终会被解析为
 url: 'https://127.0.0.1/img/1.png'
+
+# 开发者
+
+- QQ：2022742378
+- 博客：https://firstmeet.store/
+
+期待更多的需求，欢迎提 issue

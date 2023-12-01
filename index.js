@@ -1,6 +1,5 @@
 export function filterFuncConfig(config) {
   const { workDir, filterFuncs } = config
-  // 请求地址
   return function filterFunc(app) {
     return {
       name: 'filterFunc',
