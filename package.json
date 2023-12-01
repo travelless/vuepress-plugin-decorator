@@ -1,0 +1,8 @@
+{
+  "name": "vuepress-plugin-filterFunc",
+  "version": "1.0.0",
+  "description": "为vuepress的frontmatter提供一个类似eleventy中filter的过滤器服务。",
+  "main": "index.js",
+  "author": "firstmeet",
+  "license": "MIT"
+}
