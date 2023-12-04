@@ -1,11 +1,11 @@
-export function filterFuncConfig(config) {
-  const { workDir, filterFuncs } = config
-  return function filterFunc(app) {
+export function decoratorConfig(config) {
+  const { workDir, decorators } = config
+  return function decorator(app) {
     return {
-      name: 'filterfunc',
+      name: 'decorator',
       extendsPage: (page) => {
         if (isWorkDir(page, workDir, app)) {
-          dealWithFrontmatter(page.frontmatter, filterFuncs)
+          dealWithFrontmatter(page.frontmatter, decorators)
         }
       },
     }
