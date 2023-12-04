@@ -1,6 +1,10 @@
 # 介绍
 
-这是一个 vuepress 的插件，为 vuepress 用户提供了一个类似 eleventy 中 filter 函数的过滤器功能。
+这是一个 vuepress 的插件，为 vuepress 用户提供了一个 frontmatter 的装饰器功能。
+
+## 参考
+
+该插件参考了 eleventy 框架中的[filters](https://www.11ty.dev/docs/filters/)。
 
 # 使用方法：
 

@@ -1,7 +1,7 @@
 {
-  "name": "vuepress-plugin-filterfunc",
+  "name": "vuepress-plugin-decorator",
   "version": "1.0.1",
-  "description": "为vuepress的frontmatter提供一个类似eleventy中filter的过滤器服务。",
+  "description": "为vuepress的frontmatter提供一个装饰器服务。",
   "main": "index.js",
   "author": "firstmeet",
   "license": "MIT",
@@ -11,6 +11,11 @@
     "url": "https://github.com/travelless/vuepress-plugin-filterfunc"
   },
   "keywords": [
-    "vuepress-plugin"
+    "vuepress-plugin",
+    "vuepress",
+    "decorator",
+    "frontmatter",
+    "filter",
+    "eleventy"
   ]
 }
