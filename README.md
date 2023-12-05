@@ -12,12 +12,12 @@
 
 ```js
 // 在你的config.ts文件中
-import { filterFuncConfig } from 'vuepress-plugin-filterfunc'
+import { decoratorConfig } from 'vuepress-plugin-decorator'
 export default defineUserConfig({
   plugins: [
-    filterFuncConfig({
+    decoratorConfig({
       workDir: ['', 'ports/'],
-      filterFuncs: {
+      decorators: {
         toLowerCase: (name) => {
           return name.toLowerCase()
         },
@@ -45,10 +45,10 @@ name: firstmeet
 ```js
 {
   workDir: ['', 'ports/'], // 你的md文件所在的目录，用数组表示，如果你的md文件在/src目录下，那么就是['']，如果你的md文件在/src/ports目录下，那么就是['ports/']。
-  filterFuncs: {
-    // 过滤器函数，key是过滤器的名字，value是过滤器函数
-    // 过滤器函数的参数val是你在md文件中使用过滤器时的属性值
-    // 过滤器函数的返回值newVal会替换掉你在md文件中使用过滤器后的属性值。
+  decorators: {
+    // 装饰器函数，key是装饰器的名字，value是装饰器函数
+    // 装饰器函数的参数val是你在md文件中使用装饰器时的属性值
+    // 装饰器函数的返回值newVal会替换掉你在md文件中使用装饰器后的属性值。
     'funName':funtion(val){
       return newVal
     }
@@ -63,7 +63,7 @@ name: firstmeet
 name | fun: val
 ---
 
-其中 fun 为你注册的过滤器函数的名字，val 为你传入的参数。
+其中 fun 为你注册的装饰器函数的名字，val 为你传入的参数。
 最终会被解析为 name: newVal
 ```
 
